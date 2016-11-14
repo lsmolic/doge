@@ -1,0 +1,8 @@
+%h1 Demo#index
+%p
+- @array.each do |item|
+  %p
+    =item
+
+
+= link_to( 'hello page 1', {:controller => 'demo', :action =>'index'})
